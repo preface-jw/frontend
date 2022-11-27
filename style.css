@@ -1,0 +1,94 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2{
+	position: absolute;
+}
+
+
+body {
+/*	background-color: red;*/
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+}
+
+h1 {
+	font-size: 260%;
+	color: tomato;
+	transform: translate(25%, 150%);
+}
+
+#topBanner > h2 {
+	transform: translate(35%, 1000%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+#cards {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	padding: 8px;
+}
+
+
+/*li{
+	list-style-type: none;
+	line-height: 30px;
+	padding: 10px;
+}*/
+
+.place{
+	height: 330px;
+	width:330px;
+	object-fit: cover;
+	border-radius: 70px;
+}
+
+.icon{
+	transform: translate(80%, 20%);
+}
+
+#banner {
+	width: 100%;
+	position: relative;
+}
+
+#logo {
+	width: 30%;
+	padding: 50px;
+	transform: translate(0, 10%);
+}
+
+#menuIcon {
+	width: 100%;
+	transform: translate(1700px, 10px);
+}
+
+#signInIcon {
+	width: 100%;
+	transform: translate(1700px, 10px);
+}
+
+#topBanner{
+	display: flex;
+
+}
+
+
+
+#topBanner > div {
+	transform: translate(42%, 60%);
+}
